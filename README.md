@@ -1,6 +1,6 @@
 # WEB APP AUTOMATICALLY DEPLOYED TO AWS
 ## Resumen
-En el repositorio actual, se aplica el conocimiento sobre CloudFormation en AWS, consiste en desplegar una solución en varias instancias EC2 definidas como parametros por el usuario
+En el repositorio actual se aplica el conocimiento sobre CloudFormation en AWS. Consiste en desplegar una solución en varias instancias EC2 definidas como parametros por el usuario
 
 *GitHub URL*: https://github.com/camrojass/CloudFormation_Lab.git
 
