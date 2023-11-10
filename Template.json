@@ -768,9 +768,9 @@
                                 {
                                     "Ref": "AWS::Region"
                                 },
-                                "\n"
+                                "\n",
 								"# Run webserver.js \n",
-								"npm webserver.js",
+								"npm webserver.js \n",
 								"\n"
                             ]
                         ]
