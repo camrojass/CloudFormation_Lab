@@ -8,6 +8,7 @@ En el repositorio actual se aplica el conocimiento sobre CloudFormation en AWS. 
 1. [Vista de Arquitectura](#id1)
 2. [Instalación](#id2)
 3. [Autor](#id3)
+4. [Bibliografía](#id4)
 
 ## Vista de Arquitectura <a name="id1"></a>
 ![image](https://github.com/camrojass/CloudFormation_Lab/assets/100396227/268a47a7-1c7c-42a5-8f0c-ad504b0a4a28)
@@ -367,3 +368,9 @@ console.log('Start Webserver');
 
 ## Autor <a name="id3"></a> ✒️ 
 * **Camilo Alejandro Rojas** - *Trabajo y documentación* - [camrojass](https://github.com/camrojass)
+
+## Bibliografía <a name="id4"></a>
+* Guía de usuario CloudFormation. URL: https://docs.aws.amazon.com/es_es/AWSCloudFormation/latest/UserGuide/cfn-whatis-concepts.html#cfn-concepts-templates
+* Referencia de tipos de recursos y propiedades de AWS. URL: https://docs.aws.amazon.com/es_es/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html
+* Cómo publicar aplicaciones. URL: https://docs.aws.amazon.com/es_es/serverlessrepo/latest/devguide/serverlessrepo-how-to-publish.html
+* aws-sam-cli-app-templates. URL: https://github.com/aws/aws-sam-cli-app-templates/tree/master
