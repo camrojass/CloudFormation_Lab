@@ -13,7 +13,7 @@ En el repositorio actual se aplica el conocimiento sobre CloudFormation en AWS. 
 ## Vista de Arquitectura <a name="id1"></a>
 ![image](https://github.com/camrojass/CloudFormation_Lab/assets/100396227/268a47a7-1c7c-42a5-8f0c-ad504b0a4a28)
 
-En la imagen previa se evidencia los compoentes de la solución
+En la imagen previa se evidencia los componentes de la solución, a continuación se enlista cada uno y su respectivo código en el archivo [template.json](template.json)
 * WebServer Security Group Component
 ```json
       "WebServerSecurityGroup": {
