@@ -593,7 +593,7 @@
                             }
                         },
                         "files": {
-                            "webserver.js": {
+                            "server.js": {
                                 "content": {
                                     "Fn::Join": [
                                         "",
@@ -608,7 +608,7 @@
                                             "\n",
                                             "app.listen(80); \n",
                                             "\n",
-                                            "console.log('Start Webserver'); \n"
+                                            "console.log('Start Server'); \n"
                                         ]
                                     ]
                                 },
@@ -769,8 +769,8 @@
                                     "Ref": "AWS::Region"
                                 },
                                 "\n",
-								"# Run webserver.js \n",
-								"npm webserver.js \n",
+								"# Run server.js \n",
+								"npm server.js \n",
 								"\n"
                             ]
                         ]
