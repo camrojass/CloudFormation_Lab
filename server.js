@@ -7,4 +7,4 @@ app.get('/', function(req, res) {
 
 app.listen(80);
 
-console.log('Start Webserver');
+console.log('Start Server');
