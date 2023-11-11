@@ -172,7 +172,7 @@ En la imagen previa se evidencia los compoentes de la solución
 ## Instalación <a name="id2"></a>
 ### Adecuación de [Template.json](Template.json)
 1. Se desarrolla la solución.
-<details><summary>webserver.js</summary>
+<details><summary>server.js</summary>
 <p>
 
 ```js
@@ -185,7 +185,7 @@ app.get('/', function(req, res) {
 
 app.listen(80);
 
-console.log('Start Webserver');
+console.log('Start Server');
 ```
 </details></p>
 
@@ -273,8 +273,8 @@ console.log('Start Webserver');
                           "Ref": "AWS::Region"
                       },
                       "\n",
-      "# Run webserver.js \n",
-      "npm webserver.js \n",
+      "# Run server.js \n",
+      "npm server.js \n",
       "\n"
                   ]
               ]
@@ -282,10 +282,10 @@ console.log('Start Webserver');
       }
   }
 ```
-3. Se coloca la solución [webserver.js](webserver.js) y [index.html](index.html) como parte del template, como parte de la metada del componente LaunchConfiguration
+3. Se coloca la solución [server.js](server.js) y [index.html](index.html) como parte del template, como parte de la metada del componente LaunchConfiguration
 ```json
 "files": {
-    "webserver.js": {
+    "server.js": {
         "content": {
             "Fn::Join": [
                 "",
@@ -300,7 +300,7 @@ console.log('Start Webserver');
                     "\n",
                     "app.listen(80); \n",
                     "\n",
-                    "console.log('Start Webserver'); \n"
+                    "console.log('Start Server'); \n"
                 ]
             ]
         },
